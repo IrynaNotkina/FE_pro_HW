@@ -7,7 +7,7 @@ function checkDigits() {
         alert ("Please enter a valid three-digit number.");
         return checkDigits();
     }
-    let userInputSep = String(userInput).split('');
+    let userInputSep = userInput.split('');
     // console.log(userInputSep);
 
     if (userInputSep[0] === userInputSep[1] && userInputSep[1] === userInputSep[2]) {
