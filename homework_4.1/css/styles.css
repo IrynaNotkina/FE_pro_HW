@@ -1,0 +1,11 @@
+@import url("reset.css");
+
+.title {
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 100px;
+}
